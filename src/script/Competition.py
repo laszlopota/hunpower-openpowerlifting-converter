@@ -18,7 +18,7 @@ class Competition:
         self.initial_check()
         self.make_openpowerlifting_folder()
         
-        self.urls = self.read_url_txt(f"{self.path}/__URL.txt")
+        self.urls = self.read_url_txt()
         self.excel_config = self.read_excel_config()
         self.meet_config = self.read_meet_config()
         
@@ -51,8 +51,8 @@ class Competition:
                 return
         os.mkdir(folder_path)
     
-    def read_url_txt(self, path):
-        with open(path) as txt_file:
+    def read_url_txt(self):
+        with open(f"{self.path}/__URL.txt") as txt_file:
             lines = txt_file.read().splitlines()
             return sorted(lines)
     
