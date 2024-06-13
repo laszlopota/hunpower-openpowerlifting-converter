@@ -1,0 +1,20 @@
+{
+    "HunpowerExcel1": {
+        "event":     "SBD",
+        "equipment": "Raw",
+        "division":  "Juniors",
+        "sex":       "M",
+    },
+    "hunpowerexcel2": {
+        "event":     "B",
+        "equipment": "Single-ply",
+        "division":  "Open",
+        "sex":       "F",
+    },
+    "HunpowerexcelN": {
+        "event":     "SBD",
+        "equipment": "Raw",
+        "division":  "Team",
+        "sex":       "F",
+    }
+}

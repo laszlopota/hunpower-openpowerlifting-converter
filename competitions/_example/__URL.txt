@@ -1,0 +1,3 @@
+https://hunpower.hu/wp-content/uploads/YYYY/MM/HunpowerExcel1.xlsx
+https://hunpower.hu/wp-content/uploads/YYYY/MM/HunpowerExcel2.xls
+https://hunpower.hu/wp-content/uploads/YYYY/MM/HunpowerExcelN.xls
